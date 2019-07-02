@@ -161,9 +161,10 @@ footer{
 
 }
  */
+
  main{
-    margin: 0;
-    padding: 0;
+    
+   
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     background-position: center;
@@ -228,28 +229,26 @@ footer{
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-  /*   justify-content: space-evenly;
-    flex-wrap: wrap; */
+
 }
  .personal-details >  div {
     margin: 1em;
-} 
-.child1 {
- 
-   flex: 1;
-  
+    flex: 1;
+    margin: 2%;
+
 }
 .child2 {
- 
-  flex: 1;
- 
-
-
-   
-}
+    flex: 2;
+} 
 .sub {
-    margin-top: 2%;
+    margin: 2%;
 }
+.sub a:hover {
+    color: #f0be42;
+    margin-left: 10px;
+    transition: 200ms;
+}
+
 
 .progress {
     max-width: 100%;
@@ -268,6 +267,9 @@ footer{
     text-decoration-line: underline;
     font-weight: bolder;
 
+}
+#skills {
+    margin-left: 0;
 }
 #skills ul {
 list-style: none;

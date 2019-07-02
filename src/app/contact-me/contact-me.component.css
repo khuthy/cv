@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .forms {
@@ -57,4 +57,71 @@
     color: white;
 
     padding: 5px;
+} */
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1200px;
+    flex-wrap: wrap;
+
 }
+.contactus {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+.contactus > div {
+    flex: 1;
+    height: 100vh;
+    margin: 1%;
+
+}
+.contactus > div:nth-child(odd) {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/800px_COLOURBOX2650002.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    color: aqua;
+}
+.side-left {
+    display: flex;
+    flex-direction: column;
+}
+.side-left > * {
+    width: 100%;
+    /* border: 1px solid #c00; */
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.form-group > label {
+    flex:  1;
+    margin: 1%;
+} 
+.form-group > input, textarea {
+    flex:  3;
+    margin: 1%;
+    padding: 10px;
+}
+.btn-success {
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: green;
+    border: none;
+    width: 130px;
+}
+
